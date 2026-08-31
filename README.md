@@ -1,3 +1,3 @@
 # Belajar GIT Tekom D 25
 
-Ini adala dokumentasi project belajar git di kelas TEKOM D
+Ini adalah Dokumentasi belajar GIT kelas TEKOM D
