@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width>device-width, intial-scale=1.0">
-    <title>Documents</title>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Selamat Datang di Website Pribadi Saya</h1>
-    <a href="index.html">Home</a> | <a href="about.html">Tentang Saya</a> | <a href="contact.html">Kontak</a>
+<div id="wrapper">
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Portfolio Categories</a>
+            <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Programming</a>
+                    <ul>
+                        <li><a href="htmldancss.html">HTML & CSS</a></li>
+                        <li><a href="cppdanpython.html">C++ & Python</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div id="sidebar-kiri">
+        <h3>Profil Ringkasan</h3>
+        <center>
+            <img src="profil4.jpeg" class="profile-img" alt="profil">
+        </center>
+        <br>
+        <p class="infotext" style="text-align: center; margin-top: 10px;">
+            <b>Jefferson Joshua Slay</b>
+            <b>Universitas Negeri Makassar</b>
+            <b>Jurusan Teknik Komputer</b>
+        </p>
+    </div>
+    <div id="sidebar-tengah-atau-badan">
+        <span class="headlines">Welcome to My Portfolio</span>
+        <div class="transparent-box">
+            <p class="sublines">
+                I am a Computer Engineering student with a strong focus on the application of digital technology within the computing field. My work bridges the gap between engineering and technology by implementing solutions such as Artificial Intelligence, websites, and computer network systems.
+                <br>
+                <br>
+                Driven by a spirit of innovation, I strive to create solutions that make computing projects more efficient, sustainable, and data-driven. Each project represents an opportunity to integrate modern software practices into conventional technical challenges.
+            </p>
+        </div>
+        <h2>New Project</h2>
+        <div class="card-project">
+            <h3>1. Membuat Websites Portofolio</h3>
+            <p>Dikerjakan dengan menggunakan bahasaberbasis HTML & CSS dengan layout multi-kolom.</p>
+        </div>
+        <div class="card-project">
+            <h3>2. Menerapkan Semua Code dalam Modul</h3>
+            <p>Implementasi semua konsep dan teknik yang dipelajari dalam modul praktikum Pemrograman Web.</p>
+        </div>
+    </div>
+    <div id="sidebar-kanan">
+        <h3>Announcement</h3>
+        <p class="sublines">Tugas Praktikum Pemrograman Web dengan implementasi Modul 3, 4, 5, dan 6.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2026 Jefferson Joshua Slay - Pemrograman Web</p>
+    </div>
+</div>
 </body>
 </html>
